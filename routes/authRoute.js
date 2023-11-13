@@ -32,9 +32,7 @@ const {
 } = require("../controller/paymentCtrl");
 
 
-router.get("/", (req, res) => {
-    res.send("Hello, this is the root route!");
-});
+
 
 
 router.post("/register", createUser);
